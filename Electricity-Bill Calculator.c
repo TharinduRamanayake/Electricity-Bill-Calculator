@@ -1,4 +1,5 @@
-/*AA1846*/
+/*TharinduRamanayake*/
+/*Electricity-Bill Calculator*/
 
 #include<stdio.h>
 
@@ -15,7 +16,7 @@ printf("Enter previous reading: ");
 scanf("%d", &preunit);
 
 unit = curunit-preunit; //for get used unites
-
+/*TharinduRamanayake*/	
 if(unit <= 50)
 	amount = unit*3;
 
